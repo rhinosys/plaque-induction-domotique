@@ -56,5 +56,6 @@ automation:
       - service: switch.turn_off
         entity_id: switch.induction_stove_relay
 
+```
 # SCHEMA
 ![Location of Fritzing Schema](doc/schema.png)
