@@ -8,8 +8,6 @@ Nous avons constaté que notre plaque à induction consomme en mode attente 120W
 
 L'objectif de ce projet est de réduire la consommation électrique de notre plaque à induction en mode attente en intégrant un mécanisme de désactivation automatique via notre système de domotique.
 
-## Solution Proposée
-
 ## Solutions Proposées
 
 ### Solution avec ESP32
