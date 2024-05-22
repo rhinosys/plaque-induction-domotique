@@ -2,11 +2,11 @@
 
 ## Constat de Départ
 
-Nous avons constaté que notre plaque à induction consomme en idle 120W en permanence. Après des recherches, il semble que toutes les plaques à induction consomment une certaine quantité d'énergie en mode idle. Cette consommation est principalement due au mécanisme de sécurité et aux capteurs tactiles qui restent actifs en attente.
+Nous avons constaté que notre plaque à induction consomme en mode attente 120W en permanence. Après des recherches, il semble que toutes les plaques à induction consomment une certaine quantité d'énergie en mode attente. Cette consommation est principalement due au mécanisme de sécurité et aux capteurs tactiles qui restent actifs en attente.
 
 ## Objectif du Projet
 
-L'objectif de ce projet est de réduire la consommation électrique de notre plaque à induction en mode idle en intégrant un mécanisme de désactivation automatique via notre système de domotique.
+L'objectif de ce projet est de réduire la consommation électrique de notre plaque à induction en mode attente en intégrant un mécanisme de désactivation automatique via notre système de domotique.
 
 ## Solution Proposée
 
@@ -55,6 +55,7 @@ automation:
     action:
       - service: switch.turn_off
         entity_id: switch.induction_stove_relay
+
 
 ```
 # SCHEMA
